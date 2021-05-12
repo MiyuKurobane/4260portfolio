@@ -7,7 +7,7 @@
     font-size:50px;
     
 }
-html,
+/*html,
 body {
     position: relative;
     width: 100%;
@@ -107,10 +107,11 @@ body {
         background:red
     }
 
+    */
 
-
-
-
+body{
+    background-color:black
+}
 
 h1{
     color:white;
@@ -134,23 +135,25 @@ h3{
 body {
     background-image: url(20210430_173932.jpg);
     background-size:contain;
-    /*/width:auto;
+    /*
+    /width:auto;
     height:50%;*/
-    background-repeat:no-repeat;
+background-repeat:no-repeat;
     background-color:black;
     margin-top:500px;
     padding:10px;
 
-
+    
 }
-img {
+.profile {
     width:150px;
     margin-left:200px;
     margin-right:200px;
 }
+
 section {
     /* display: flex; */
-    justify-content: space-between;
+justify-content: space-between;
     flex-wrap: wrap;
     margin-top:auto;
     position: relative;
@@ -161,7 +164,7 @@ section {
     display:table-cell;
     width:49%;
     /*border:solid 3px;*/
-    text-align:center;
+text-align:center;
     background-color:grey;
    
 }
@@ -170,7 +173,7 @@ section {
     display: table-cell;
     width: 49%;
     /*border: solid 3px;*/
-    text-align: center;
+text-align: center;
     background-color:grey;
   
 }
